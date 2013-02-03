@@ -10,7 +10,6 @@
    },
 
   "permissions": [
-    "https://www.priview.org/",
     "http://*/*", 
     "https://*/*"
   ],

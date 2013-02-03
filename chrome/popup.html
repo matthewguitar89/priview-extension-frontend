@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script>
+//            function onPageInfo(o) 
+//            { 
+//                document.getElementById("domainName").innerHTML = o.domain; 
+//                document.getElementById("moreInfoLink").innerHTML = o.domain;
+//                document.getElementById("howManyUsers").innerHTML = o.domain;
+//            } 
+
+//            window.onload = function() 
+//           { 
+//                var bg = chrome.extension.getBackgroundPage();
+//                bg.getPageInfo(onPageInfo);
+//            }
+        </script>
+        <title>Priview</title>
+    </head>
+    <body>
+      <!-- This is the look of the popup window that opens -->
+      <!-- top bit -->
+      website: <span id='domainName'>loading...</span>
+      <hr>
+      <!-- Row of images -->
+      <p id='rowIcons'>
+        <img src='' id='img_clarity.png'>
+        <img src='' id='img_security.png'>
+        <img src='' id='img_crosssitetracking.png'>
+        <img src='' id='img_disclosure.png'>
+        <img src='' id='img_access.png'>
+        <img src='' id='img_retention.png'>
+        <img src='' id='img_deletion.png'>
+        <img src='' id='img_ratethispolicy.png'>
+      </p>
+      <p id='data_submissions'>
+        <a href='http://www.priview.org/info/site.com' id='moreInfoLink'>Based on <span id='howManyUsers'></span> user submissions. Click here to rate.</a>
+      </p>
+    </body>
+</html>

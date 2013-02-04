@@ -9,7 +9,7 @@ chrome.webNavigation.onDOMContentLoaded.addListener(function(object details){
             chrome.browserAction.setIcon({path:"icon_" + r + ".png"})
         }
     }
-    ajax.open("GET", "http://preview.herokuapp.com/1/button-api/" + domain,true);
+    ajax.open("GET", "http://preview-server.herokuapp.com/1/button-api/" + domain,true);
     ajax.send();
     }
 });

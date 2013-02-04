@@ -17,7 +17,12 @@
         <style>
             body {
                 font-family:arial, sans-serif;
-                
+                font-size: 9pt;
+                min-width: 300px;
+            }
+            
+            #topPart {
+                font-weight:bold;
             }
             
             body a {
@@ -36,7 +41,9 @@
     <body>
       <!-- This is the look of the popup window that opens -->
       <!-- top bit -->
+      <p id='topPart'>
       website: <span id='domainName'>loading...</span>
+      </p>
       <hr>
       <!-- Row of images -->
       <p id='rowIcons'>
@@ -50,7 +57,7 @@
         <img src='' id='img_ratethispolicy.png'>
       </p>
       <p id='data_submissions'>
-        <a href='http://www.priviewproject.org/info/site.com' target='_blank' id='moreInfoLink'>Based on <span id='howManyUsers'></span> user submissions. Click here to rate.</a>
+        <a href='http://www.priviewproject.org/info/site.com' target='_blank' id='moreInfoLink'>Based on <span id='howManyUsers'>x</span> user submissions. Click here to rate.</a>
       </p>
     </body>
 </html>
